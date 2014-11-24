@@ -10,7 +10,7 @@
 
 So glad to finally be writing my first post with [**Nikola**](https://www.getnikola.com). It truly provides an awesome, fun way of setting up a static website/blog and gives you complete control every step of the way. It took me a while to get this setup working but boy am I pleased with the results. It's written completely in Python, is blazingly fast, features an **IPython** plugin that lets you create and share IPython content directly and deploys easily to **Github**, giving you version control for your blog. Everything is 100% customizable and to top it off, is completely free. *Can it get any better?*
 
-So without further ado, below I will attempt explain the steps I followed to successfully set up a site with Nikola, configure the IPython plugin for Nikola and setup a Github page to deploy the website. Before I begin, a quick disclaimer. These are steps that worked well for me and I hope will help you too but if you're looking for a tutorial, I suggest you learn like I did, from the pros instead.
+So without further ado, below I will attempt explain the steps I followed to successfully set up a site with Nikola, configure the IPython plugin for Nikola and setup a Github page to deploy the website. Before I begin, a quick disclaimer. These are steps that worked well for me and I hope will help you too. But I would recommend you take a look at [Damian Avila's blog posts](http://www.damian.oquanta.info/index.html).
 
 Let's get started.
 <!-- TEASER_END -->
@@ -20,7 +20,7 @@ Nikola is a python-based static site generator that takes its name from the grea
 
 Funnily enough though, I remember him best (the character, not the man) from the classic movie Prestige by Christopher Nolan (big fan!).
 
-![ ](https://raw.githubusercontent.com/ShankarMsy/shankarmsy.github.io/source/galleries/Inserts/nikola.jpg  "A still from Prestige, source BBC")
+![ ](https://raw.githubusercontent.com/ShankarMsy/shankarmsy.github.io/master/galleries/Inserts/nikola.jpg  "A still from Prestige, source BBC")
 
 Ok, so a natural first question to ask is, what is a static website?
 
@@ -128,7 +128,7 @@ We're now ready to initialize the new site. Navigate to the parent folder where 
 
 Nikola 7+ has a great command line interface that should prompt you with questions about your new site like Title, URL, Description etc. You can always fill this up later so you can just keep hitting return if you like.
 
-CD into myblog and notice that your site has now been generated in the form of several folders. The key mentions here are:
+CD into myblog and notice that your site has now been generated in the form of several folders. The key mentions here are:  
 
 - blog posts go in the Posts folder
 - web pages go in the Stories folder

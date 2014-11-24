@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
     <head>
     <meta charset="utf-8">
     <meta name="description" content="blogging with the awesome nikola, ipython and github">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blogging with the awesome Nikola, IPython and Github | Shankar Muthuswamy</title>
 
-    
-            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+                <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 
-    
-            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+                <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
       <link rel="canonical" href="https://shankarmsy.github.io/posts/blogging-with-the-awesome-nikola-ipython-and-github.html">
 
@@ -22,14 +23,9 @@
 
     
 
-
     
-
-    <meta name="description" itemprop="description" content="blogging with the awesome nikola, ipython and github">
     <meta name="author" content="Shankar Muthuswamy">
-        <link rel="next" href="why-data-scientist.html" title="Why I want to be a Data Scientist?" type="text/html">
-    
-    <meta property="og:site_name" content="Shankar Muthuswamy">
+        <meta property="og:site_name" content="Shankar Muthuswamy">
     <meta property="og:title" content="Blogging with the awesome Nikola, IPython and Github">
     <meta property="og:url" content="https://shankarmsy.github.io/posts/blogging-with-the-awesome-nikola-ipython-and-github.html">
     <meta property="og:description" content="blogging with the awesome nikola, ipython and github">
@@ -42,10 +38,7 @@
            <meta property="article:tag" content="Octopress">
 
     
-
     
-
-
 
 </head>
 <body>
@@ -71,8 +64,7 @@
 <!-- /.navbar-header -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                
-                <li>
+                                <li>
 <a href="../archive.html">Archive</a>
                 </li>
 <li>
@@ -94,13 +86,9 @@
 </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                
-                
-                    
     <li>
     <a href="blogging-with-the-awesome-nikola-ipython-and-github.md" id="sourcelink">Source</a>
     </li>
-
                 
             </ul>
         </div>
@@ -116,41 +104,34 @@
         <!--Body content-->
         <div class="row">
             
-            
 <article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
-    
-    <header>
-        
-    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Blogging with the awesome Nikola, IPython and Github</a></h1>
+        <header>
+            <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Blogging with the awesome Nikola, IPython and Github</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Shankar Muthuswamy</span></p>
             <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2014-09-23T01:57:19-08:00" itemprop="datePublished" title="2014-09-23 01:57">2014-09-23 01:57</time></a></p>
-                <p class="commentline">
-        
-    <a href="blogging-with-the-awesome-nikola-ipython-and-github.html#disqus_thread" data-disqus-identifier="cache/posts/blogging-with-the-awesome-nikola-ipython-and-github.html">Comments</a>
+                <p class="commentline">            <a href="blogging-with-the-awesome-nikola-ipython-and-github.html#disqus_thread" data-disqus-identifier="cache/posts/blogging-with-the-awesome-nikola-ipython-and-github.html">Comments</a>
 
 
-            
-        </p>
+                    </p>
 <p class="sourceline"><a href="blogging-with-the-awesome-nikola-ipython-and-github.md" id="sourcelink">Source</a></p>
 
                 <meta name="description" itemprop="description" content="blogging with the awesome nikola, ipython and github">
         </div>
         
-
     </header>
 
     <div class="e-content entry-content" itemprop="articleBody text">
     <div>
 <p>So glad to finally be writing my first post with <a href="https://www.getnikola.com"><strong>Nikola</strong></a>. It truly provides an awesome, fun way of setting up a static website/blog and gives you complete control every step of the way. It took me a while to get this setup working but boy am I pleased with the results. It's written completely in Python, is blazingly fast, features an <strong>IPython</strong> plugin that lets you create and share IPython content directly and deploys easily to <strong>Github</strong>, giving you version control for your blog. Everything is 100% customizable and to top it off, is completely free. <em>Can it get any better?</em></p>
-<p>So without further ado, below I will attempt explain the steps I followed to successfully set up a site with Nikola, configure the IPython plugin for Nikola and setup a Github page to deploy the website. Before I begin, a quick disclaimer. These are steps that worked well for me and I hope will help you too but if you're looking for a tutorial, I suggest you learn like I did, from the pros instead.</p>
+<p>So without further ado, below I will attempt explain the steps I followed to successfully set up a site with Nikola, configure the IPython plugin for Nikola and setup a Github page to deploy the website. Before I begin, a quick disclaimer. These are steps that worked well for me and I hope will help you too. But I would recommend you take a look at <a href="http://www.damian.oquanta.info/index.html">Damian Avila's blog posts</a>.</p>
 <p>Let's get started.
 <!-- TEASER_END --></p>
 <h2>So What is Nikola?</h2>
 <p>Nikola is a python-based static site generator that takes its name from the great <a href="http://http://en.wikipedia.org/wiki/Nikola_Tesla">Nikola Tesla</a>, best known for his contributions to alternating current (AC), the electricity that powers everything we do.</p>
 <p>Funnily enough though, I remember him best (the character, not the man) from the classic movie Prestige by Christopher Nolan (big fan!).</p>
-<p><img alt=" " src="https://raw.githubusercontent.com/ShankarMsy/shankarmsy.github.io/source/galleries/Inserts/nikola.jpg" title="A still from Prestige, source BBC"></p>
+<p><img alt=" " src="https://raw.githubusercontent.com/ShankarMsy/shankarmsy.github.io/master/galleries/Inserts/nikola.jpg" title="A still from Prestige, source BBC"></p>
 <p>Ok, so a natural first question to ask is, what is a static website?</p>
 <p>In the words of Roberto Aslina, the creator of Nikola:</p>
 <blockquote>
@@ -239,7 +220,7 @@
 
 
 <p>Nikola 7+ has a great command line interface that should prompt you with questions about your new site like Title, URL, Description etc. You can always fill this up later so you can just keep hitting return if you like.</p>
-<p>CD into myblog and notice that your site has now been generated in the form of several folders. The key mentions here are:</p>
+<p>CD into myblog and notice that your site has now been generated in the form of several folders. The key mentions here are:  </p>
 <ul>
 <li>blog posts go in the Posts folder</li>
 <li>web pages go in the Stories folder</li>
@@ -357,8 +338,7 @@ nikola serve
     </div>
     <aside class="postpromonav">
     <nav>
-    
-        <ul itemprop="keywords" class="tags">
+            <ul itemprop="keywords" class="tags">
            <li><a class="tag p-category" href="../categories/blogging.html" rel="tag">Blogging</a></li>
            <li><a class="tag p-category" href="../categories/github.html" rel="tag">Github</a></li>
            <li><a class="tag p-category" href="../categories/ipython.html" rel="tag">IPython</a></li>
@@ -366,8 +346,7 @@ nikola serve
            <li><a class="tag p-category" href="../categories/octopress.html" rel="tag">Octopress</a></li>
         </ul>
 
-    
-        <ul class="pager">
+            <ul class="pager">
             <li class="next">
                 <a href="why-data-scientist.html" rel="next" title="Why I want to be a Data Scientist?">Next post</a>
             </li>
@@ -377,9 +356,7 @@ nikola serve
     </aside>
         <section class="comments">
         <h2>Comments</h2>
-        
-        
-        <div id="disqus_thread"></div>
+                        <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="shankarmsy",
             disqus_url="https://shankarmsy.github.io/posts/blogging-with-the-awesome-nikola-ipython-and-github.html",
@@ -400,13 +377,8 @@ nikola serve
 
 
         </section>
-    
-
 </article>
-
-        
-       <script>var disqus_shortname="shankarmsy";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
-
+               <script>var disqus_shortname="shankarmsy";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
 
 
         </div>
@@ -418,7 +390,6 @@ nikola serve
         </footer>
     </div>
 </div>
-
 
             <script src="../assets/js/all-nocdn.js"></script>
     
@@ -451,7 +422,6 @@ nikola serve
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script>
     <!-- end fancy dates -->
-    
 
 
 </body>
