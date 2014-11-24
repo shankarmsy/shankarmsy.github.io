@@ -1,0 +1,208 @@
+<p>So glad to finally be writing my first post with <a href="https://www.getnikola.com"><strong>Nikola</strong></a>. It truly provides an awesome, fun way of setting up a static website/blog and gives you complete control every step of the way. It took me a while to get this setup working but boy am I pleased with the results. It's written completely in Python, is blazingly fast, features an <strong>IPython</strong> plugin that lets you create and share IPython content directly and deploys easily to <strong>Github</strong>, giving you version control for your blog. Everything is 100% customizable and to top it off, is completely free. <em>Can it get any better?</em></p>
+<p>So without further ado, below I will attempt explain the steps I followed to successfully set up a site with Nikola, configure the IPython plugin for Nikola and setup a Github page to deploy the website. Before I begin, a quick disclaimer. These are steps that worked well for me and I hope will help you too. But I would recommend you take a look at <a href="http://www.damian.oquanta.info/index.html">Damian Avila's blog posts</a>.</p>
+<p>Let's get started.
+<!-- TEASER_END --></p>
+<h1>So What is Nikola?</h1>
+<p>Nikola is a python-based static site generator that takes its name from the great <a href="http://http://en.wikipedia.org/wiki/Nikola_Tesla">Nikola Tesla</a>, best known for his contributions to alternating current (AC), the electricity that powers everything we do.</p>
+<p>Funnily enough though, I remember him best (the character, not the man) from the classic movie Prestige by Christopher Nolan (big fan!).</p>
+<p><img alt=" " src="https://raw.githubusercontent.com/ShankarMsy/shankarmsy.github.io/master/galleries/Inserts/nikola.jpg" title="A still from Prestige, source BBC" /></p>
+<p>Ok, so a natural first question to ask is, what is a static website?</p>
+<p>In the words of Roberto Aslina, the creator of Nikola:</p>
+<blockquote>
+<p><em>In a static site, the whole site, every page, everything, is created before the first user even sees it and uploaded to the server as a simple folder full of HTML files (and images, CSS, etc).</em></p>
+</blockquote>
+<p>So what is the difference between Nikola and a blogging platform like Wordpress? With Wordpress, the contents of your site live in a database known only to Wordpress and your blog is generated, in other words, converted to a presentation-ready HTML only when someone wants to see the page. Whereas with Nikola, the entire site lives in a folder on your laptop (or on Github if you maintain your source there) and is built and published, by you. The site is pre-built (you get to see it before anyone else does) and available once you deploy, whether or not someone wants to see the page. What's the benefit? Static websites will always load faster simply because it doesn't waste time re-building the site everytime.</p>
+<p>That does it for me but Roberto below nicely illustrates more advantages:</p>
+<p><a href="http://getnikola.com/handbook.html#why-static">http://getnikola.com/handbook.html#why-static</a></p>
+<h3>Features</h3>
+<p>Nikola has some wonderful features, excerpt below from their <a href="https://getnikola.com">website</a>:</p>
+<ul>
+<li>Blogs, with tags, feeds, archives, comments, etc.</li>
+<li>Themable</li>
+<li>Fast builds, thanks to doit</li>
+<li>Flexible, extensible via plugins</li>
+<li>Small codebase (programmers can understand all of Nikola core in a day)</li>
+<li>reStructuredText [Cheatsheet] or Markdown as input language (also Wiki, BBCode, Textile, AsciiDoc, Python Notebooks, Misaka, Pandoc, txt2tags, orgmode, and HTML)</li>
+<li>Easy image galleries (just drop files in a folder!)</li>
+<li>Syntax highlighting for almost any programming language or markup</li>
+<li>Multilingual sites, translated to 18 languages.</li>
+<li>Doesn't reinvent wheels, leverages existing tools.</li>
+<li>Python 2 and 3 compatible.</li>
+</ul>
+<p>For me the killer feature is the <strong>IPython plugin</strong>, integrating the capabilities of IPython seamlessly with Nikola and makes blogging with IPython a snap. You can even go one step further and setup bi-directional communicaton between IPython and Nikola, as damien has shown <a href="http://www.damian.oquanta.info/posts/bidirectional-ipython-nikola-workflow-to-write-your-blog-post.html">here</a>.</p>
+<h1>A few words on Octopress</h1>
+<p>One of the reasons I started this blog is primarily to learn and share content related to Data Science, see my <a href="https://shankarmsy.github.io/stories/about.html">About Page</a> to learn more about me. When I began this quest, there was one thing I was sure of and that was hosting the site on Github. In case you're wondering, it's super easy to host a <a href="https://pages.github.com/">page</a> on Github (more on this later).</p>
+<h3>Step in, Jekyll</h3>
+<p>Naturally, the first place I looked was Jekyll, a blog-aware static site generator for Github. As a matter of fact, Jekyll powers the Github pages. It works on the same lines of Nikola, using markdown syntax to render plain-old text files as HTML pages. Basically you type in a text file in Markdown syntax and it gets rendered as HTML. The catch? With Jekyll, you still have to write all your own HTML, CSS, etc. Pretty sure any good front-end dev would jump at the opportunity but I am not sure I had the time to invest and learn through the process of hand-building my site. That's where Octopress came in handy!</p>
+<h3>Hello Octopress</h3>
+<p>Octopress is a framework designed by Brandon Mathis and it's based on Jekyll. The difference, it takes care of HTML templates, CSS and so on for you. Similar to Nikola, it gives you more pre-built content that you can choose from and there are plenty of themes available to choose from. I tried and eventually succeeded in setting up a site based on Octopress, but two things turned me away:</p>
+<p><strong>No Support for IPython</strong></p>
+<p>This was the dealbreaker. I've chosen Python as my primary toolset for Data Science and my whole idea is to use IPython as the delivery mechanism to share my code snippets, learning/demonstrations etc. and I found no good way to convert the .ipynb notebooks to render well on an Octopress site. Even converting to HTML basic (without formatting) using nbconvert seemed to break the site somehow.</p>
+<p>Jake Vanderplas explains the difficulties in configuring IPython for Octopress below:</p>
+<p><a href="https://jakevdp.github.io/blog/2012/10/04/blogging-with-ipython/">https://jakevdp.github.io/blog/2012/10/04/blogging-with-ipython/</a></p>
+<p>Jake provided a workaround in his article but unfortunately I couldn't get it working. Moreover (with all respect to Jake) I really needed a more convenient solution if I am going to be doing this on a daily basis.</p>
+<p><strong>Octopress is based on Ruby</strong></p>
+<p>Not that there is anything wrong with it, but I am a total Ruby noob and I found it a bit cumbersome to install and configure the environment. Also, considering my need to focus on Python it made more sense to work in a Python based environment. I also found Octopress to be a tad slow compared to Nikola, but that's just my personal opinion.</p>
+<p>Nevertheless, take nothing away from Octopress, it still is a great way to static blog. Check out these sites to learn more if you're interested:</p>
+<p>Octopress site has great documentation:</p>
+<p><a href="http://octopress.org/docs/setup/">http://octopress.org/docs/setup/</a></p>
+<p>I also found Chris Bernadski's blog to be an invaluable resource for installing Ruby with rbenv.</p>
+<p><a href="http://cbednarski.com/articles/installing-ruby/">http://cbednarski.com/articles/installing-ruby/</a></p>
+<h1>Standing up a static site with Nikola &amp; Github</h1>
+<p>Ok so let's get to it then. Here are the steps I followed to get my site functional with Nikola.</p>
+<blockquote>
+<p><strong>Note:</strong> These instructions are for Linux, specifically Ubuntu but they should work for other distros as well. If you're not running Linux, you should definitely consider it (but that's for another day :-)</p>
+<p>Before proceeding make sure you have Python installed :-)</p>
+</blockquote>
+<h2>Install Virtualenv</h2>
+<p>Why do we need a virtual environment, you ask. Well, Nikola has a ton of dependencies. What if Nikola needs version 1 of a package while you need version 2 for some other purposes. That is one of the basic reasons why we'd ever need virtualenv.</p>
+<p>Go ahead and install virtualenv with the commands below. I've also included a couple of libraries which are dependencies for Nikola. </p>
+<pre class="code literal-block">sudo apt-get install python-virtualenv virtualenvwrapper libxml2-dev libxslt-dev
+</pre>
+
+
+<p>Note that we're also installing virtualenvwrapper, a set of extensions that make working with virtual environments a snap. Read more about this <a href="http://virtualenvwrapper.readthedocs.org/en/latest/">here</a>.</p>
+<p>Add a working directory (path) for virtualenv by adding the below line to ~/.bashrc. Note that you could change ~/Envs to anything you like.</p>
+<pre class="code literal-block">sudo gedit ~/.bashrc
+</pre>
+
+
+<p>Add the below line and save the file</p>
+<pre class="code literal-block">export WORKON_HOME=~/Envs
+</pre>
+
+
+<p>Now, go ahead and create a virtual environment for Nikola. You will use this every time you want to update your site so give it a friendly name you can remember.</p>
+<pre class="code literal-block">mkvirtualenv -p /usr/bin/python Nikola
+</pre>
+
+
+<h2>Install Nikola and its dependencies</h2>
+<p>All right, now let's begin by starting a working session with the virtualenv Nikola we just set up. </p>
+<pre class="code literal-block">workon Nikola
+</pre>
+
+
+<p>Notice that your cmd prompt now shows that you're inside the virtualenv Nikola. Go ahead and install Nikola along with all its dependencies like markdown, sphinx and so on.</p>
+<pre class="code literal-block">pip install nikola pyzmq tornado jinja2 requests sphinx markdown
+</pre>
+
+
+<p>We're now ready to initialize the new site. Navigate to the parent folder where you'd like to save your site. The site will be created as a folder in this directory. Once you're in the correct location enter:</p>
+<pre class="code literal-block">nikola init myblog
+</pre>
+
+
+<p>Nikola 7+ has a great command line interface that should prompt you with questions about your new site like Title, URL, Description etc. You can always fill this up later so you can just keep hitting return if you like.</p>
+<p>CD into myblog and notice that your site has now been generated in the form of several folders. The key mentions here are:  </p>
+<ul>
+<li>blog posts go in the Posts folder</li>
+<li>web pages go in the Stories folder</li>
+<li>static content goes in the Files folder</li>
+<li>the actual generated site goes in the Output folder</li>
+</ul>
+<p>So, the Output folder essentially is your site in its entirety. Right now of course it will be empty since we haven't built anything yet.</p>
+<p>*There's one more thing that's more important than everything else and that's your conf.py file. This is your ultimate destination to customize most things in your site. *</p>
+<h2>Configuring your new Nikola site</h2>
+<p>Believe it or not you're almost ready to write your first post already. But before we begin, open up conf.py and update some important fields.</p>
+<ul>
+<li>Title</li>
+<li>Author</li>
+<li>URL - Leave this at default if you don't have an existing domain name</li>
+<li>Timezone</li>
+<li>Email</li>
+<li>Description</li>
+<li>Language preferences</li>
+</ul>
+<p>As I mentioned earlier, Nikola has several themes available that are ready-to-use. You can get a list of available themes by issuing the command <code>Nikola install_theme -l</code></p>
+<p>Alternatively visit, <a href="http://themes.getnikola.com/">http://themes.getnikola.com/</a> to view available themes.</p>
+<p>Once you find sometihng you like, issue <code>nikola install_theme &lt;theme&gt;</code> to install the theme. Then go into conf.py and change the following line to the name of the theme you just installed.</p>
+<pre class="code literal-block"># Name of the theme to use.
+THEME = &quot;bootstrap3&quot;
+</pre>
+
+
+<p>You can also get fancy and look at <a href="bootswatch.com">bootswatch.com</a> to further customize your bootstrap themes. Check out my post here to learn more.</p>
+<h2>Writing your first Blog Post</h2>
+<p>Nikola has several built-in commands to help with most mundane tasks for your site. For example, to create a new post, just type:</p>
+<pre class="code literal-block">nikola new_post
+</pre>
+
+
+<p>This will prompt you for a title and create a new rst (reStructured Text) file with the name you enter in the Posts folder. It will also create a meta file that holds some key info about your new post such as Title, Date/Time, Tags etc. You could also just manually create both these files.</p>
+<p>If you prefer Markdown format for your post instead, simply issue</p>
+<pre class="code literal-block">nikola new_post -f markdown
+</pre>
+
+
+<p>Open up the post file in your favorite markdown/rst editor and type your heart's content. In case you're wondering I use <a href="https://atom.io/">Atom</a> or <a href="http://remarkableapp.net/">Remarkable</a> for Markdown and <a href="http://rst.ninjs.org/">online 
+reStructured Text editor</a> for rst.</p>
+<h2>Building your site</h2>
+<p>Great, now lets build your site. Issue the following commands:</p>
+<pre class="code literal-block">nikola build
+nikola serve
+</pre>
+
+
+<p>The former generates your site and copies it to the Output folder while the latter serves up your site in port 8000 on your laptop so you can review. Go to the following location and voila the site shows itself magically.</p>
+<pre class="code literal-block">http://localhost:8000
+</pre>
+
+
+<h3>Nikola in Auto mode</h3>
+<p>Imagine constantly changing your website and having to issue those two comands one at a time. Sound frustrating? In comes, <code>nikola auto</code>. It serves up your website in port 8000 and automatically keep track of things. The moment something changes, it jumps in and refreshes your page so you can work on and preview at the same time. Awesome!</p>
+<p>To get this to work, you need to install <code>livereload</code></p>
+<pre class="code literal-block">pip install livereload
+</pre>
+
+
+<h2>Deploying to Github</h2>
+<p>Github pages is a great way to host personal websites/blogs. It’s free, fast, reliable, gives you version control and makes you feel like a geek. In fact, Github these days is the perfect platform for you to showcase your skills.</p>
+<p>If you're new to git, I suggest you take a tutorial such as this one.</p>
+<p><a href="http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1">http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1</a></p>
+<p>To test publish your blog in github pages, follow these steps:</p>
+<ul>
+<li>Sign up for a free github account </li>
+<li>Create an empty repository for a user/organization or project page as described <a href="https://pages.github.com/">here</a></li>
+<li>Publish the contents of the Output folder (this is your actual blog) to the master (default for user/organization pages) or the gh-pages (for project pages) branch of your repository</li>
+<li>Your new site should kick in in a few minutes and will be available at <username>.github.io </li>
+<li>You can also setup a custom domain using CNAME easily, justcreate a file called CNAME in your repository with the name of your domain</li>
+</ul>
+<p>Of course, this isn't a workflow you should follow going forward. You need an automated (or manual) workflow to do two things:</p>
+<ol>
+<li>Maintain a full copy of your blog source (the entire blog/site folder) in the source branch of your repository. Tis dows two things:<ul>
+<li>Maintains a full backup of your blog in case you lose your local copy</li>
+<li>Provides you version control in case you want to rollback to a prior version</li>
+</ul>
+</li>
+<li>Commit only the Output folder to the master/gh-pages branch of your repository for user or project pages respectively.</li>
+</ol>
+<p>Check out <a href="http://www.damian.oquanta.info/posts/one-line-deployment-of-your-site-to-gh-pages.html">Damian Avila's article</a> where he provides a way to automate this workflow.</p>
+<h2>Blogging with IPython</h2>
+<p>I truly love IPython notebooks and as I highlighted earlier, Nikola make this super snappy. Follow the steps below and IPy-blog on!</p>
+<ol>
+<li>
+<p>Ensure you have IPython 1.0 installed (If you'll be using Python more often than not, give <a href="https://store.continuum.io/cshop/anaconda/">anaconda</a> a shot, its super cool!)</p>
+</li>
+<li>
+<p>Install a theme that has IPython in it. For example <code>nikola install_theme ipython</code></p>
+</li>
+<li>
+<p>Modify your conf.py to include the following lines under POSTS and PAGES respectively:</p>
+<pre class="code literal-block">(&quot;posts/*.ipynb&quot;, &quot;posts&quot;, &quot;post.tmpl&quot;),
+(&quot;stories/*.ipynb&quot;, &quot;stories&quot;, &quot;story.tmpl&quot;),
+</pre>
+
+
+</li>
+<li>
+<p>You're all set, to write a post in IPython (yes, Nikola automatically converts it for you, no more nbconvert) just do</p>
+<pre class="code literal-block">    nikola new_post -f ipynb
+</pre>
+
+
+</li>
+</ol>
+<p>If you will blog all the time with IPython keep the lines in bullet 3 as the first line under POSTS/PAGES, then you can just do <code>nikola new_post</code></p>
+<p>There you have it, a brand new, customizable, fully functional site powered by Nikola, IPython and Github. It can't get better than this.</p>
+<p>Happy Blogging!</p>
