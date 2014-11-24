@@ -8,6 +8,7 @@
 .. type: text
 -->
 
+
 I just wrote about my thoughts on why I would love to become a Data Scientist in my [Background](https://shankarmsy.github.io/stories/background.html) page and thought I'll share it as a post as well.
 
 There might be something there that will benefit those considering a transition to Data Science. I would also be thrilled to receive any feedback/comments.

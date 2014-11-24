@@ -8,6 +8,7 @@
 .. type: text
 -->
 
+
 I just wrote about my thoughts on why I would love to become a Data Scientist in my [Background](https://shankarmsy.github.io/stories/background.html) page and thought I'll share it as a post as well.
 
 There might be something there that will benefit those considering a transition to Data Science. I would also be thrilled to receive any feedback/comments.
@@ -23,7 +24,7 @@ For over 12 years, I built a fairly successful consulting career in **Business I
 ##Learning Curve
 In Machine Learning, there's a concept of learning curves.  If you look at a high bias or high variance curve, both training and test errors flatten after several iterations.  Depending on how close the curves are to each other when they flatten, we can tell if it's a high variance or a high bias problem. I think life teaches us a similar lesson in some aspects. Doing the same thing over and over again, flattens our learning curve at some point. We have to throw in some surprises to keep ourselves motivated. 
 
-![ ](https://raw.githubusercontent.com/ShankarMsy/shankarmsy.github.io/source/galleries/Inserts/lc-hb.png "Typical High Variance problem in ML, source Prof. Andrew Ng")  
+![ ](https://raw.githubusercontent.com/ShankarMsy/shankarmsy.github.io/source/galleries/Inserts/lc-hb.png  "Typical High Variance problem in ML, source Prof. Andrew Ng")  
 
 > ***Getting more of the same thing will just not help, the similarity is striking :-)*  **
 
@@ -86,7 +87,4 @@ My days now consist of the following:
 I hope you found atleast some of this article interesting. I will be excited to hear you comments and feedback about my mode of preparation and wish you the best in whatever you do!
   
 Happy Reading!
-
-
-
-
+<br></br>

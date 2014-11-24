@@ -341,7 +341,7 @@ DEPLOY_COMMANDS = {
                                   "git add . -A",
                                   "git commit -am 'Update'",
                                   "git push origin HEAD:source --force",
-                                  "git stp --prefix output origin master"]
+                                  "git stp output origin master"]
 
 #     'default': [
 #         "rsync -rav --delete output/ joe@my.site:/srv/www/site",
