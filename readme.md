@@ -6,5 +6,4 @@ As an added bonus, if you love IPython, it integrates seamlessly with Nikola let
 
 **This repo is my personal website/blog deployed on Nikola and Github.**
 
-*Probably not going to help if you clone this repo but be sure to [click here](http://shankarmsy.github.io/posts/blogging-with-the-awesome-nikola-ipython-and-github.html) for detailed instructions to create your own blog/site.
-with Nikola*
+*Probably not going to help if you clone this repo but be sure to [click here](http://shankarmsy.github.io/posts/blogging-with-the-awesome-nikola-ipython-and-github.html) for detailed instructions to create your own blog/site with Nikola*

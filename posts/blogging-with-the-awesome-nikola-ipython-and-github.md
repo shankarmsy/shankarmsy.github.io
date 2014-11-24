@@ -2,7 +2,7 @@
 .. title: Blogging with the awesome Nikola, IPython and Github
 .. slug: blogging-with-the-awesome-nikola-ipython-and-github
 .. date: 2014-09-23 01:57:19 UTC-08:00
-.. tags: Blogging, Nikola, IPython, Github, Octopress
+.. tags: blogging, nikola, IPython, github, octopress
 .. link: 
 .. description: blogging with the awesome nikola, ipython and github
 .. type: text
