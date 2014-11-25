@@ -10,12 +10,12 @@
 
 Glad you'd like to know more about me. Here comes the preamble :-)  
 <br></br>
-For over 12 years, I built a fairly successful consulting career in **Business Intelligence**, mostly SAP BusinessObjects but with other BI tools as well such as Tableau. During this time, I had the wonderful opportunity to provide services to some of the major Fortune500 companies including **Warner Bros**, **Levi Strauss**, **HJ Heinz**, **Nike** and **Sony Pictures**. When you're constantly learning something new, there is never a dearth of excitement. That pretty much sums up this phase of my professional career.
+For over 12 years, I built a fairly successful consulting career in **Business Intelligence**, mostly SAP BusinessObjects but with other BI tools as well such as Tableau. During this time, I had the wonderful opportunity to provide services to many of the major Fortune500 companies. When you're constantly learning something new, there is never a dearth of excitement. That pretty much sums up this phase of my professional career.
 
 ##Learning Curve
 In Machine Learning, there's a concept of learning curves.  If you look at a high bias or high variance curve, both training and test errors flatten after several iterations.  Depending on how close the curves are to each other when they flatten, we can tell if it's a high variance or a high bias problem. I think life teaches us a similar lesson in some aspects. Doing the same thing over and over again, flattens our learning curve at some point. We have to throw in some surprises to keep ourselves motivated. 
 
-![ ](https://raw.githubusercontent.com/ShankarMsy/shankarmsy.github.io/source/galleries/Inserts/lc-hb.png  "Typical High Variance problem in ML, source Prof. Andrew Ng")  
+![ ](https://raw.githubusercontent.com/ShankarMsy/shankarmsy.github.io/source/galleries/Inserts/lc-hb.png "Typical High Variance problem in ML, source Prof. Andrew Ng")  
 
 > ***Getting more of the same thing will just not help, the similarity is striking :-)*  **
 
@@ -49,13 +49,13 @@ Some people don't like the term Data Scientist, I for one love it. Common, this 
 
 **My Background**  
 
-Although many of the areas I needed to learn or in fact will blog about is new to me, I think BI is a pretty good skill to have and will positively influence a data science career. Understanding SQL, Data Visualization (to an extent), Data Munging (through exposure to ETL) and some programming skills (although not with Pyhon or R) sure doesn't hurt if not help. 
+Although many of the areas I needed to learn or in fact will blog about is new to me, I think BI is a pretty good skill to have and will positively influence a data science career. Understanding SQL, Data Visualization (to an extent), Data Munging (through exposure to ETL) and some programming skills (although not with Python or R) sure doesn't hurt if not help. 
 
-So I decided to dive in, very recently full-time, by quitting my job (lets see how that pans out) and dedicating myself 100% to Data Science. This blog is my means of learning, sharing, communicating as well as demonstrating my progress in Data Science. Hopefully someone with special powers will take notice :=)
+So I decided to dive in and dedicate myself 100% to Data Science. The quest is still on as we speak and this blog is my means of learning, sharing, communicating as well as demonstrating my progress in Data Science. Hopefully someone with special powers will take notice :=)
 
 ##So What Now?
 
-My days now consist of the following:
+My game plan and daily routine these days is essentially  the following:
 
 - **Learning, learning and more learning**  
 
@@ -73,7 +73,7 @@ My days now consist of the following:
 
 - **For when I am Ready**  
 
-	That day when I start to look out for interesting assignments in Data Science. For now, I need to get better.
+	That day when I start to look out for interesting assignments in Data Science. I'll worry about that when I am ready. For now, *I need to get better*.
 
 I hope you found atleast some of this article interesting. I will be excited to hear you comments and feedback about my mode of preparation and wish you the best in whatever you do!
   
