@@ -2,7 +2,7 @@
 .. title: Blogging with the awesome Nikola, IPython and Github
 .. slug: blogging-with-the-awesome-nikola-ipython-and-github
 .. date: 2014-09-23 01:57:19 UTC-08:00
-.. tags: Blogging, Nikola, IPython, Github, Octopress
+.. tags: blogging, nikola, IPython, github, octopress
 .. link: 
 .. description: blogging with the awesome nikola, ipython and github
 .. type: text
@@ -41,7 +41,7 @@ Nikola has some wonderful features, excerpt below from their [website](https://g
 - Fast builds, thanks to doit
 - Flexible, extensible via plugins
 - Small codebase (programmers can understand all of Nikola core in a day)
-- reStructuredText [Cheatsheet] or Markdown as input language (also Wiki, BBCode, Textile, AsciiDoc, Python Notebooks, Misaka, Pandoc, txt2tags, orgmode, and HTML)
+- reStructuredText or Markdown as input language (also Wiki, BBCode, Textile, AsciiDoc, Python Notebooks, Misaka, Pandoc, txt2tags, orgmode, and HTML)
 - Easy image galleries (just drop files in a folder!)
 - Syntax highlighting for almost any programming language or markup
 - Multilingual sites, translated to 18 languages.
