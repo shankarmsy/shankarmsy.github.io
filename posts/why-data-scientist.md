@@ -1,5 +1,5 @@
 <!-- 
-.. title: Why I want to be a Data Scientist?
+.. title: Why I want to be a Data Scientist
 .. slug: why-data-scientist
 .. date: 2014-09-24 10:21:49 UTC-08:00
 .. tags: blogging, data science, fundamentals

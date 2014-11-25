@@ -6,15 +6,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/blogging.xml</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/data-science.xml</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/fundamentals.xml</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/github.xml</loc>
@@ -54,10 +54,10 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/rss.xml</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/sitemap.xml</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </sitemap>
 </sitemapindex>
