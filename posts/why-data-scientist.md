@@ -17,8 +17,9 @@ Click below to read on or visit my Background page. Happy Monday!
 
 <!-- TEASER_END -->
 
-Glad you'd like to know more about me. Here comes the preamble :-)  
+Glad you'd like to know more about me. Here comes the preamble :-) 
 <br></br>
+
 For over 12 years, I built a fairly successful consulting career in **Business Intelligence**, mostly SAP BusinessObjects but with other BI tools as well such as Tableau. During this time, I had the wonderful opportunity to provide services to many of the major Fortune500 companies. When you're constantly learning something new, there is never a dearth of excitement. That pretty much sums up this phase of my professional career.
 
 ##Learning Curve

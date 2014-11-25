@@ -6,11 +6,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://shankarmsy.github.io/2014/index.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/archive.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/assets/reveal/index.html</loc>
@@ -74,11 +74,11 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/github.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/index.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/ipython.html</loc>
@@ -90,7 +90,7 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/nikola.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/octopress.html</loc>
@@ -106,11 +106,11 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/galleries/Inserts/index.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/galleries/index.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/index.html</loc>
@@ -118,11 +118,11 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/listings/index.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/posts/blogging-with-the-awesome-nikola-ipython-and-github.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/posts/simplify-github-nikola.html</loc>
@@ -134,10 +134,10 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/stories/background.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/stories/intro.html</loc>
-  <lastmod>2014-11-24</lastmod>
+  <lastmod>2014-11-25</lastmod>
  </url>
 </urlset>
