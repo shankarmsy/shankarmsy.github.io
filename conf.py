@@ -648,6 +648,7 @@ COMMENT_SYSTEM_ID = "shankarmsy"
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty.
 # (translatable)
+SOCIAL_BUTTONS_CODE = ""
 # SOCIAL_BUTTONS_CODE = """
 # <!-- Social buttons -->
 # <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
