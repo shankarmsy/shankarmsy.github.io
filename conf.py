@@ -112,7 +112,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
         ("/categories/index.html", "Tags"),
-#        ('/stories/intro.html', 'Intro'), 
+        ('/stories/projects.html', 'Projects'), 
         ((("/stories/intro.html", "Intro"), 
         ("/stories/background.html", "Background")), "About"),
 #        ("/rss.xml", "RSS feed"),
@@ -217,7 +217,7 @@ POSTS = (
 PAGES = (
     ("stories/*.md", "stories", "story.tmpl"),
     ("stories/*.rst", "stories", "story.tmpl"),
-#    ("stories/*.ipynb", "stories", "story.tmpl"),
+    ("stories/*.ipynb", "stories", "story.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
