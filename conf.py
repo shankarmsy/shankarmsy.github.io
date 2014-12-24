@@ -91,7 +91,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 # This is a dict.  The keys are languages, and values are tuples.
 #
 # For regular links:
-#     ('http://getnikola.com/', 'Nikola Homepage')
+('http://getnikola.com/', 'Nikola Homepage')
 #
 # For submenus:
 #     (
@@ -115,7 +115,7 @@ NAVIGATION_LINKS = {
         ('/stories/projects.html', 'Projects'), 
         ((("/stories/intro.html", "Intro"), 
         ("/stories/background.html", "Background")), "About"),
-#        ("/rss.xml", "RSS feed"),
+        # ("/rss.xml", "RSS feed"),
     ),
 }
 
@@ -126,10 +126,12 @@ NAVIGATION_LINKS = {
 #         ('/categories/index.html', 'Tags', 'icon-tags'),
 #         ('/rss.xml', 'RSS', 'icon-rss'),
 #         ('/stories/about.html', 'About me', 'icon-user'),
+#         ('/stories/projects.html', 'Projects'), 
 #         # ((("/stories/intro.html", "Intro"), 
 #         # ("/stories/background.html", "Background")),  'About me', 'icon-user'),
 #         ('https://twitter.com/shankarmsy', 'My Twitter', 'icon-twitter'),
 #         ('https://github.com/shankarmsy', 'My Github', 'icon-github'),
+#         ('https://linkedin.com/in/shankarmuthuswamy', 'My LinkedIn', 'icon-linkedin'),
 #     )
 # }
 
@@ -510,7 +512,6 @@ LICENSE = ""
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         {license}'
-
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
 # intelligently format the setting properly.
@@ -649,6 +650,29 @@ COMMENT_SYSTEM_ID = "shankarmsy"
 # long time). Insert anything you want here, or even make it empty.
 # (translatable)
 SOCIAL_BUTTONS_CODE = ""
+SOCIAL_BUTTONS_CODE="""<div id="social-icons" style="position: fixed; right: 55px; top: 16px; z-index: 1500; opacity: 0.9"> \
+<a href="https://github.com/shankarmsy"> \
+<img title="Github" alt="Github" src="/assets/Octocat.png" width="28" height="28" /> \
+</a> \
+<a href="https://twitter.com/shankarmsy"> \
+<img title="Twitter" alt="Twitter" src="/assets/twitter.png" width="28" height="28" /> \
+</a> \
+<a href="https://linkedin.com/in/shankarmsy"> \
+<img title="LinkedIn" alt="LinkedIn" src="/assets/linkedin.png" width="28" height="28" /> \
+</a> \
+<a href="/rss.xml"> \
+<img title="RSS" alt="RSS" src="/assets/rss.png" width="28" height="28" /> \
+</a></div> \
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style" width="24" height="24">
+<a class="addthis_button_more">Share</a>
+<ul><li><a class="addthis_button_facebook"></a>
+<li><a class="addthis_button_google_plusone_share"></a>
+<li><a class="addthis_button_linkedin"></a>
+<li><a class="addthis_button_twitter"></a>
+</ul>
+</div>
+<script type="text/javascript" src="/assets/addthis_widget.js" async="async"></script>
+"""
 # SOCIAL_BUTTONS_CODE = """
 # <!-- Social buttons -->
 # <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
@@ -672,7 +696,7 @@ SOCIAL_BUTTONS_CODE = ""
 
 # Modify the number of Post per Index Page
 # Defaults to 10
-# INDEX_DISPLAY_POST_COUNT = 10
+INDEX_DISPLAY_POST_COUNT = 5
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.
@@ -744,11 +768,7 @@ SOCIAL_BUTTONS_CODE = ""
 # EXTRA_HEAD_DATA = ""
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
-# (translatable)
-# BODY_END = ""
-
-# The possibility to extract metadata from the filename by using a
-# regular expression.
+# BODY_END=""
 # To make it work you need to name parts of your regular expression.
 # The following names will be used to extract metadata:
 # - title
