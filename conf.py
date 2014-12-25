@@ -650,7 +650,7 @@ COMMENT_SYSTEM_ID = "shankarmsy"
 # long time). Insert anything you want here, or even make it empty.
 # (translatable)
 SOCIAL_BUTTONS_CODE = ""
-SOCIAL_BUTTONS_CODE="""<div id="social-icons" style="position: fixed; right: 55px; top: 16px; z-index: 1500; opacity: 0.9"> \
+SOCIAL_BUTTONS_CODE="""<div id="social-icons" style="position: fixed; left: 760px; top: 16px; z-index: 1500; opacity: 0.9"> \
 <a href="https://github.com/shankarmsy"> \
 <img title="Github" alt="Github" src="/assets/Octocat.png" width="28" height="28" /> \
 </a> \
