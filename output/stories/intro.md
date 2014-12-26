@@ -16,3 +16,18 @@ So that in essence is the mission statement for this site***
 Comments are most welcome. I appreciate constructive feedback in any form or shape and take expert rebuttals on the chin.
 
 If you would like to learn more about my background, click [here](https://shankarmsy.github.io/stories/background.html). Otherwise, Happy reading!
+
+Cheers!  
+Shankar
+
+<a href="https://github.com/shankarmsy"> 
+<img title="Github" alt="Github" src="/assets/Octocat.png" width="28" height="28"/> 
+</a> 
+<a href="https://twitter.com/shankarmsy"> 
+<img title="Twitter" alt="Twitter" src="/assets/twitter.png" width="28" height="28" /> 
+</a> 
+<a href="https://linkedin.com/in/shankarmsy"> 
+<img title="LinkedIn" alt="LinkedIn" src="/assets/linkedin.png" width="28" height="28" /> 
+</a> 
+<a href="mailto: shankar.muthuswamy@gmail.com"> 
+<img title="Gmail" alt="Gmail" src="/assets/gmail.png" width="28" height="28" /> </a>

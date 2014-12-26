@@ -650,29 +650,16 @@ COMMENT_SYSTEM_ID = "shankarmsy"
 # long time). Insert anything you want here, or even make it empty.
 # (translatable)
 SOCIAL_BUTTONS_CODE = ""
-SOCIAL_BUTTONS_CODE="""<div id="social-icons" style="position: fixed; left: 760px; top: 16px; z-index: 1500; opacity: 0.9"> \
-<a href="https://github.com/shankarmsy"> \
-<img title="Github" alt="Github" src="/assets/Octocat.png" width="28" height="28" /> \
-</a> \
-<a href="https://twitter.com/shankarmsy"> \
-<img title="Twitter" alt="Twitter" src="/assets/twitter.png" width="28" height="28" /> \
-</a> \
-<a href="https://linkedin.com/in/shankarmsy"> \
-<img title="LinkedIn" alt="LinkedIn" src="/assets/linkedin.png" width="28" height="28" /> \
-</a> \
-<a href="/rss.xml"> \
-<img title="RSS" alt="RSS" src="/assets/rss.png" width="28" height="28" /> \
-</a></div> \
-<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style" width="24" height="24">
-<a class="addthis_button_more">Share</a>
-<ul><li><a class="addthis_button_facebook"></a>
-<li><a class="addthis_button_google_plusone_share"></a>
-<li><a class="addthis_button_linkedin"></a>
-<li><a class="addthis_button_twitter"></a>
-</ul>
-</div>
-<script type="text/javascript" src="/assets/addthis_widget.js" async="async"></script>
-"""
+# SOCIAL_BUTTONS_CODE="""<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style" width="24" height="24">
+# <a class="addthis_button_more">Share</a>
+# <ul><li><a class="addthis_button_facebook"></a>
+# <li><a class="addthis_button_google_plusone_share"></a>
+# <li><a class="addthis_button_linkedin"></a>
+# <li><a class="addthis_button_twitter"></a>
+# </ul>
+# </div>
+# <script type="text/javascript" src="/assets/addthis_widget.js" async="async"></script>
+# """
 # SOCIAL_BUTTONS_CODE = """
 # <!-- Social buttons -->
 # <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
@@ -689,7 +676,7 @@ SOCIAL_BUTTONS_CODE="""<div id="social-icons" style="position: fixed; left: 760p
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
-# SHOW_SOURCELINK = True
+SHOW_SOURCELINK = True
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
 # COPY_SOURCES = True
@@ -739,7 +726,18 @@ INDEX_DISPLAY_POST_COUNT = 5
 # """ % SITE_URL
 #
 # If you prefer a Google search form, here's an example that should just work:
-# SEARCH_FORM = """
+SEARCH_FORM = """<a href="https://github.com/shankarmsy"   style = "position:relative; left:300px; top: 10px"> 
+<img title="Github" alt="Github" src="/assets/Octocat.png" width="28" height="28"/> 
+</a> 
+<a href="https://twitter.com/shankarmsy" style = "position:relative; left:300px; top: 10px"> 
+<img title="Twitter" alt="Twitter" src="/assets/twitter.png" width="28" height="28" /> 
+</a> 
+<a href="https://linkedin.com/in/shankarmsy" style = "position:relative; left:300px; top: 10px"> 
+<img title="LinkedIn" alt="LinkedIn" src="/assets/linkedin.png" width="28" height="28" /> 
+</a> 
+<a href="/rss.xml" style = "position:relative; left:300px; top: 10px"> 
+<img title="RSS" alt="RSS" src="/assets/rss.png" width="28" height="28" /> </a>
+"""
 # <!-- Custom search with Google-->
 # <form id="search" action="//www.google.com/search" method="get" class="navbar-form pull-left">
 # <input type="hidden" name="q" value="site:%s" />
@@ -768,7 +766,11 @@ INDEX_DISPLAY_POST_COUNT = 5
 # EXTRA_HEAD_DATA = ""
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
-# BODY_END=""
+BODY_END="""
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="/assets/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "dfc16d6b-dc4e-4b0f-ab93-b400d1d8cdde", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+"""
 # To make it work you need to name parts of your regular expression.
 # The following names will be used to extract metadata:
 # - title

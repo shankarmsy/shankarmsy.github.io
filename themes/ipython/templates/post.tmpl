@@ -21,6 +21,14 @@
     <div class="e-content entry-content" itemprop="articleBody text">
     {{ post.text() }}
     </div>
+    <br>
+<span class='st_twitter_hcount' displayText='Tweet'></span>
+<span class='st_facebook_hcount' displayText='Facebook'></span>
+<span class='st_linkedin_hcount' displayText='LinkedIn'></span>
+<span class='st_pinterest_hcount' displayText='Pinterest'></span>
+<span class='st_googleplus_hcount' displayText='Google +'></span>
+<span class='st_email_hcount' displayText='Email'></span>
+<br><br><br>
     <aside class="postpromonav">
     <nav>
     {{ helper.html_tags(post) }}
@@ -39,8 +47,19 @@
 
 {% block sourcelink %}
 {% if show_sourcelink %}
-    <li>
-    <a href="{{ post.source_link() }}" id="sourcelink">{{ messages("Source") }}</a>
-    </li>
+     <!-- <div id="social"> -->
+   <!-- <a href="{{ post.source_link() }}" id="sourcelink">{{ messages("Source") }}</a> -->
+<!-- <a href="https://github.com/shankarmsy" style = "position:absolute; right:320px; top: 16px;"> 
+<img title="Github" alt="Github" src="/assets/Octocat.png" width="28" height="28"/> 
+</a> 
+<a href="https://twitter.com/shankarmsy" style = "position:absolute; right:290px; top: 16px;"> 
+<img title="Twitter" alt="Twitter" src="/assets/twitter.png" width="28" height="28" /> 
+</a> 
+<a href="https://linkedin.com/in/shankarmsy" style = "position:absolute; right:255px; top: 16px;"> 
+<img title="LinkedIn" alt="LinkedIn" src="/assets/linkedin.png" width="28" height="28" /> 
+</a> 
+<a href="/rss.xml" style = "position:absolute; right:225px; top: 16px;"> 
+<img title="RSS" alt="RSS" src="/assets/rss.png" width="28" height="28" /> </a> -->
+<!-- </a></div> -->
 {% endif %}
 {% endblock %}

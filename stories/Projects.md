@@ -23,17 +23,17 @@ Feel free to use any of this for your own reference but expect more code than te
 **Data Science Mini-Projects**  
 I call these mini projects because they cover the full spectrum of the learning process beginning with Data Munging, Data Analysis, Data Exploration in the form of visualizations before actually getting into model fitting, cross validation and model evaluation. They initially began as an attempt to learn individual algorithms but I realized that I can get the best value only if I undertake the complete Data Science process to understand the true meaning of successful model development. I intend to host solutions in multiple toolsets here but I will start with scikit-learn (+ other python packages) and R.  
 
-[Facial Image Compression and Dimensionality Reduction using Principal Component Analysis (PCA)](/stories/projects/pca-sklearn.html)  
-[Understanding k-Nearest Neighbours with the PIMA Indians Diabetes dataset (UCI)](/stories/projects/knn-sklearn.html)  
+[Facial Image Compression and Dimensionality Reduction using Principal Component Analysis (PCA)](/posts/pca-sklearn.html)  
+[Understanding k-Nearest Neighbours with the PIMA Indians Diabetes dataset (UCI)](/stories/knn-sklearn.html)  
 [Recognizing Hand Written Digits (UCI ML Repo) with Support Vector Machines (SVM)](/posts/svm-sklearn.html)  
-[Color Compression using the K-Means algorithm](/stories/projects/clustering-sklearn.html)  
-[Predicting LendingClub interest rates with Linear Regression](/stories/projects/linear-reg-sklearn.html)  
-[Evaluating the Statlog (German Credit Data) Data Set with Random Forests](/stories/projects/rf-sklearn.html)  
-[Caifornia house price predictions with Gradient Boosted Regression Trees  ](/stories/projects/gbrt-sklearn.html)  
+[Color Compression using the K-Means algorithm](/stories/clustering-sklearn.html)  
+[Predicting LendingClub interest rates with Linear Regression](/stories/llinear-reg-sklearn.html)  
+[Evaluating the Statlog (German Credit Data) Data Set with Random Forests](/stories/rf-sklearn.html)  
+[Caifornia house price predictions with Gradient Boosted Regression Trees  ](/stories/gbrt-sklearn.html)  
 
 **Kaggle Competitions**  
 
-[Saving the Titanic with R](/posts/saving-titanic-r.html)  
+[Saving the Titanic with R & IPython](/posts/saving-titanic-r.html)  
 In this session I work on the Titanic Survival prediction challenge. The solution which is entirely in **R** includes:  
 
 - Data Analysis through Visualizations  
@@ -41,7 +41,7 @@ In this session I work on the Titanic Survival prediction challenge. The solutio
 - Model Fitting & Evaluation with Logistic Regression, Support Vector Machines (SVM), Random Forests & Conditional Trees
 - Model Comparison  
 
-Click [here](/stories/projects/saving-titanic-r.html) to access the notebook.
+Click [here](/posts/saving-titanic-r.html) to access the notebook.
 
 **Data Munging - Getting & Cleaning Data**  
 These are tool-focused working sessions. The focus here is to understand the concepts of Data Munging from the perspective of the tool at hand. I intend to initially start with Pandas but will expand to other areas as well. I also attempted Data Cleansing with R as part of the Titanic Survival prediction project.  
