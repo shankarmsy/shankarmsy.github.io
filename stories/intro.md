@@ -1,5 +1,5 @@
 <!-- 
-.. title: Intro
+.. title: Goal of the Blog
 .. slug: intro
 .. date: 
 .. tags: blogging, motivation, intro
@@ -8,14 +8,14 @@
 .. type: text
 -->
 
-Thank you for visiting my site. I am **Shankar Muthuswamy**, an aspiring Data Scientist, avid technology enthusiast and a father. This blog is basically a collection of my ramblings as I work my way into the deep horizons of data science. But the topics won't be restricted to data science, I intend to blog about anything technical that excites me. 
+Thanks for visiting. I am **Shankar Muthuswamy**, an aspiring Data Scientist, avid technology enthusiast and a father. The aim of this blog is to serve as a journal for my ideas, experiments and projects as I work my way into the deep horizons of data science.  I've not chosen these topics for any specific reason other than to learn something new and I am not sure of their scientific value but sharing with the hope that someone somewhere finds it useful. The topics won't be restricted to data science, I intend to blog about anything technical that excites me in this journey.
 
 >***From my own experience, I've always learned things better and faster when I tried to teach it to someone.   
-So that in essence is the mission statement for this site*** 
+So that in essence is the mission statement for this blog*** 
 
-Comments are most welcome. I appreciate constructive feedback in any form or shape and take expert rebuttals on the chin.
+Comments are most welcome. Word of caution, I do not have a PhD or a Masters and learn much of this on my own so if you're an expert tell me what I can/should change and why. I appreciate constructive feedback in any form or shape and take expert rebuttals on the chin.
 
-If you would like to learn more about my background, click [here](https://shankarmsy.github.io/stories/background.html). Otherwise, Happy reading!
+If you have the luxury of time click [here](/stories/background.html) to learn more about my background and hear why I chose Data Science. Otherwise, Happy reading!
 
 Cheers!  
 Shankar
