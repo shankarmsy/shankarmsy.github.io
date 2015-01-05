@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Shankar Muthuswamy"  # (translatable)
-BLOG_TITLE = "Shankar Muthuswamy"  # (translatable)
+BLOG_TITLE = "Shankar's Data Science Blog"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "https://shankarmsy.github.io/"
@@ -25,7 +25,7 @@ SITE_URL = "https://shankarmsy.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://shankarmsy.github.io"
 BLOG_EMAIL = "Shankar.Muthuswamy@gmail.com"
-BLOG_DESCRIPTION = "aspiring data scientist data science"  # (translatable)
+BLOG_DESCRIPTION = "musings and ramblings on technology"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -113,8 +113,9 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archive"),
         ("/categories/index.html", "Tags"),
         ('/stories/projects.html', 'Projects'), 
-        ((("/stories/intro.html", "Intro"), 
-        ("/stories/background.html", "Background")), "About"),
+        ((("/stories/intro.html", "Goal of the Blog"), 
+        # ("/stories/background.html", "My Background")), "About"),
+        ("/posts/why-data-scientist.html", "My Background")), "About"),
         # ("/rss.xml", "RSS feed"),
     ),
 }

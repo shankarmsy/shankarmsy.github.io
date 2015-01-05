@@ -9,9 +9,11 @@
 -->
 
 
-I just wrote about my thoughts on why I would love to become a Data Scientist in my [Background](/stories/background.html) page and thought I'll share it as a post as well.
+Caution: this is quite a ramble :-) 
 
-There might be something there that will benefit those considering a transition to Data Science. I would also be thrilled to receive any feedback/comments. Click below to read on or visit my Background page.  
+If you reached here from the My Background page and don't have the time, read [Goal of the Blog](/stories/intro.html) instead and be done with it.
+
+But if you're curious read on. I shared this as a post since there might be something here that will benefit those considering a transition to Data Science. I would also be thrilled to receive any feedback/comments. 
 
 <!-- TEASER_END -->
 

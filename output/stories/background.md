@@ -8,6 +8,8 @@
 .. type: text
 -->
 
+Caution: If you don't have the time, just read [Goal of the Blog](/stories/intro.html) instead and be done with it.
+
 Glad you'd like to know more about me. Forgive the rambling and read on :-)  
 
 ###IT Consulting
