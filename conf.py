@@ -726,16 +726,16 @@ INDEX_DISPLAY_POST_COUNT = 5
 # """ % SITE_URL
 #
 # If you prefer a Google search form, here's an example that should just work:
-SEARCH_FORM = """<a href="https://github.com/shankarmsy"   style = "position:relative; left:300px; top: 10px"> 
+SEARCH_FORM = """<a href="https://github.com/shankarmsy"   style = "position:relative; left:270px; top: 10px"> 
 <img title="Github" alt="Github" src="/assets/Octocat.png" width="28" height="28"/> 
 </a> 
-<a href="https://twitter.com/shankarmsy" style = "position:relative; left:300px; top: 10px"> 
+<a href="https://twitter.com/shankarmsy" style = "position:relative; left:270px; top: 10px"> 
 <img title="Twitter" alt="Twitter" src="/assets/twitter.png" width="28" height="28" /> 
 </a> 
-<a href="https://linkedin.com/in/shankarmsy" style = "position:relative; left:300px; top: 10px"> 
+<a href="https://linkedin.com/in/shankarmsy" style = "position:relative; left:270px; top: 10px"> 
 <img title="LinkedIn" alt="LinkedIn" src="/assets/linkedin.png" width="28" height="28" /> 
 </a> 
-<a href="/rss.xml" style = "position:relative; left:300px; top: 10px"> 
+<a href="/rss.xml" style = "position:relative; left:270px; top: 10px"> 
 <img title="RSS" alt="RSS" src="/assets/rss.png" width="28" height="28" /> </a>
 """
 # <!-- Custom search with Google-->

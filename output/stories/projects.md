@@ -32,16 +32,20 @@ I call these mini projects because they cover the full spectrum of the learning 
 [Caifornia house price predictions with Gradient Boosted Regression Trees  ](/stories/gbrt-sklearn.html)  
 
 **Kaggle Competitions**  
-
-[Saving the Titanic with R & IPython](/posts/saving-titanic-r.html)  
-In this session I work on the Titanic Survival prediction challenge. The solution which is entirely in **R** includes:  
+Following are some of the competitions I've participated in at Kaggle. For each item below, I've documented my entire approach that includes:
 
 - Data Analysis through Visualizations  
 - Data Munging  
-- Model Fitting & Evaluation with Logistic Regression, Support Vector Machines (SVM), Random Forests & Conditional Trees
+- Feature Normalization
+- Feature Engineering
+- Model Fitting & Evaluation with multiple classifiers/regressors
 - Model Comparison  
 
-Click [here](/posts/saving-titanic-r.html) to access the notebook.
+[Saving the Titanic with R & IPython](/posts/saving-titanic-r.html)  
+In this session I work on the Titanic Survival prediction challenge. The solution is entirely in **R** but hosted in an IPython notebook.
+
+[Predicting Forest Cover Types with Ensemble Learning](/posts/forest-cover-types.html)  
+In this session I work on the Forest Cover Type prediction challenge. The solution is entirely in Python. I try to demonstrate the ensemble approach to machine learning with this competition (with reasonable success).
 
 **Data Munging - Getting & Cleaning Data**  
 These are tool-focused working sessions. The focus here is to understand the concepts of Data Munging from the perspective of the tool at hand. I intend to initially start with Pandas but will expand to other areas as well. I also attempted Data Cleansing with R as part of the Titanic Survival prediction project.  

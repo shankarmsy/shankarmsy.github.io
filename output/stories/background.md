@@ -8,11 +8,20 @@
 .. type: text
 -->
 
-Glad you'd like to know more about me. Here comes the preamble :-)  
-<br></br>
-For over 12 years, I built a fairly successful consulting career in **Business Intelligence**, mostly SAP BusinessObjects but with other BI tools as well such as Tableau. During this time, I had the wonderful opportunity to provide services to many of the major Fortune500 companies. When you're constantly learning something new, there is never a dearth of excitement. That pretty much sums up this phase of my professional career.
+Glad you'd like to know more about me. Forgive the rambling and read on :-)  
 
-##Learning Curve
+###IT Consulting
+After having completed my Bachelors in Computer Science & Engineering, I was drawn to the deep waters of IT and then onto the even deeper chasm of Consulting. For over 12 years I did consulting work in Business Intelligence and did it fairly well to make a career out of it (almost!). For a fresh engineering graduate, to be single, travel across NA , work with Fortune 500 companies and getting paid on top of it is the stuff made up of dreams. I was like a kid in a candy store, no dearth for excitement. 
+
+
+###Rich Experience but Big Questions?  
+When you're very excited about something you sometimes forget to realize what it is that excited you in the first place. Was it the work? the pay? the travel/perks? If I look back at these 12 years I see a young kid not mature enough to know the options in front of him when he graduated, got too excited to be working for a Big X Consulting firm and all the perks that came with it. I did learn tremendously and was really good at what I did, but was it what my inner self *wanted* to do? How much outside of the tools did I learn about technology? And much more importantly:  *How much of what I did for a living used atleast some of what I learnt in School*?
+
+If you're not from India or the Asian sub-continent you'll probably not fully understand the point I am trying to make. But there are many like me that're constantly on the run, they don't know why and they don't even care if they like what they do, but they do it anyway because it pays the bills. I am no different, I just happened to wake up one fine day and decided to end this. Why not discover what I like and try to get good at it? I am not yet into my 40s and this probably is my last shot at something new, considering I have my kid(s) I need to responsible for.
+
+So what led me to this sudden awakening? Funnily enough it's all the learning :-)
+
+###Learning Curve
 In Machine Learning, there's a beautiful concept of learning curves.  To determine how a model is performing, we can plot curve(s) to learn if there's indication of high bias (too bad a fit) or high variance (too good a fit). If you look at these two extreme cases, you'll see that both training and test errors (curves) always seem to flatten after several iterations. Depending on how close the curves are to each other when they flatten, we can tell if it's a high variance or a high bias problem. 
 
 >*I think life teaches us a similar lesson in some aspects. Doing the same thing over and over again, flattens our learning curve at some point.  
@@ -24,7 +33,7 @@ We have to throw in some surprises to keep ourselves motivated.*
 
 I am digressing, but you must see the point I am trying hard to make. Though great while it lasted, my learning curve with Business Intelligence totally flattened out hence prompting me to look at other avenues to keep myself motivated. Not saying there is nothing I don't know about BI, but I just kept losing the motivation to keep treading the same path. In ML terms, I simply needed to find some new features :D
 
-##Why Data Science?
+###Why Data Science?
 I started reading about Data Science not too long ago. The more I read about it, the more I was drawn to it. I also however realized I was late to the party. Though everyone is talking about it for the last year or so, the field has been around for a while, *in various forms and shapes*. If I were to list out my reasons for drooling over Data Science, they will be as follows:  
 
 **Array of skills you need to be successful**
@@ -54,15 +63,17 @@ Some people don't like the term Data Scientist, I for one love it. Common, this 
 
 Although many of the areas I needed to learn or in fact will blog about is new to me, I think BI is a pretty good skill to have and will positively influence a data science career. Understanding SQL, Data Visualization (to an extent), Data Munging (through exposure to ETL) and some programming skills (although not with Python or R) sure doesn't hurt if not help. 
 
+>Above all, it fit the bill perfectly in terms of whetting my creative and professional appetite. It was new to me, exciting, builds on fundamental Math and CompSci, and I needed to learn, a **LOT**.  
+
 So I decided to dive in and dedicate myself 100% to Data Science. The quest is still on as we speak and this blog is my means of learning, sharing, communicating as well as demonstrating my progress in Data Science. Hopefully someone with special powers will take notice :=)
 
-##So What Now?
+###So What Now?
 
 My game plan and daily routine these days is essentially  the following:
 
 - **Learning, learning and more learning**  
 
-	How do I learn? I am a strong believer in teaching myself. In this day and age, with the amount of help that's available on the internet, anyone can learn just about anything, on their own. And I do not have the time to go back to school. I will rather invest the time in furthering skills myself. If you're wondering what I am rambling about, this basically means `MOOCs on a countably infinite loop`
+	How do I learn? I am a strong believer in teaching myself. In this day and age, with the amount of help that's available on the internet, anyone can learn just about anything, on their own. And I do not have the time to go back to school. I will rather invest the time in furthering skills myself through `MOOCs on a countably infinite loop`
 
 	This is not just restricted to Data Science. I am interested in front-end development, Linux and other topics such as for instance, Nikola. As I continue blogging, I will share some great links on all relevant topics I post.
 
@@ -78,7 +89,11 @@ My game plan and daily routine these days is essentially  the following:
 
 	That day when I start to look out for interesting assignments in Data Science. I'll worry about that when I am ready. For now, *I need to get better*.
 
-I hope you found atleast some of this article interesting. I will be excited to hear you comments and feedback about my mode of preparation and wish you the best in whatever you do!
+I hope you found atleast some of this article interesting. I will be absolutely thrilled if it inspired someone else to choose a new path, but everyone should make their own decision and only dive-in if they're ready to commit to failure.
+
+>**Prepare for the Worst but Hope for the Best**
+  
+I would be excited to hear you comments and feedback about my mode of preparation and wish you the best in whatever you do!
   
 Happy Reading!
 
