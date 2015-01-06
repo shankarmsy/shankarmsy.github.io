@@ -13,7 +13,7 @@ Thanks for visiting. I am **Shankar Muthuswamy**, an aspiring Data Scientist, av
 >***From my own experience, I've always learned things better and faster when I tried to teach it to someone.   
 So that in essence is the mission statement for this blog*** 
 
-Comments are most welcome. Word of caution, I do not have a PhD or a Masters and learn much of this on my own so if you're an expert tell me what I can/should change and why. I appreciate constructive feedback in any form or shape and take expert rebuttals on the chin.
+Comments are most welcome. I always appreciate constructive feedback in any form or shape and take expert rebuttals on the chin.
 
 If you have the luxury of time click [here](/stories/background.html) to learn more about my background and hear why I chose Data Science. Otherwise, Happy reading!
 
