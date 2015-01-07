@@ -6,63 +6,67 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/blending.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/blogging.xml</loc>
-  <lastmod>2015-01-06</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/conditional-trees.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/data-munging.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/data-science.xml</loc>
-  <lastmod>2015-01-06</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/digit-recognition.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/dimensionality-reduction.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/ensemble.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/extra-trees.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/fundamentals.xml</loc>
-  <lastmod>2015-01-06</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/github.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/image-compression.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/ipython.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/kaggle.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://shankarmsy.github.io/categories/linear-regression.xml</loc>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/logistic-regression.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/machine-learning.xml</loc>
@@ -74,55 +78,55 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/nikola.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/octopress.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/pandas.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/pca.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/python.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/r.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/random-forests.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/scikit-learn.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/supervised-learning.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/svm.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/titanic.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/tutorial.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/unsupervised-learning.xml</loc>
-  <lastmod>2015-01-05</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/galleries/Inserts/rss.xml</loc>
@@ -134,10 +138,10 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/rss.xml</loc>
-  <lastmod>2015-01-06</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/sitemap.xml</loc>
-  <lastmod>2015-01-06</lastmod>
+  <lastmod>2015-01-07</lastmod>
  </sitemap>
 </sitemapindex>
