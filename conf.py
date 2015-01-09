@@ -25,7 +25,7 @@ SITE_URL = "https://shankarmsy.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://shankarmsy.github.io"
 BLOG_EMAIL = "Shankar.Muthuswamy@gmail.com"
-BLOG_DESCRIPTION = "musings and ramblings on technology"  # (translatable)
+BLOG_DESCRIPTION = "musings and ramblings on Data Science & more"  # (translatable)
 
 # Nikola is multilingual!
 #
