@@ -12,7 +12,7 @@ Thanks for visiting. I am **Shankar Muthuswamy**, an aspiring Data Scientist, av
 
 I've not chosen these topics for any specific reason other than to learn something new and I am not sure of their scientific value but sharing with the hope that someone somewhere finds it useful. The topics won't be restricted to data science though, I intend to blog about anything technical that excites me in this journey.    
 
-Comments are most welcome. Click [here](/stories/background.html) to learn more about my background.
+Comments are most welcome. 
 
 **Share More, Learn More!**  
 Shankar
