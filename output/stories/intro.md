@@ -8,16 +8,13 @@
 .. type: text
 -->
 
-Thanks for visiting. I am **Shankar Muthuswamy**, an aspiring Data Scientist, avid technology enthusiast and a father. The aim of this blog is to serve as a journal for my ideas, experiments and projects as I work my way into the deep horizons of data science.  I've not chosen these topics for any specific reason other than to learn something new and I am not sure of their scientific value but sharing with the hope that someone somewhere finds it useful. The topics won't be restricted to data science, I intend to blog about anything technical that excites me in this journey.
+Thanks for visiting. I am **Shankar Muthuswamy**, an aspiring Data Scientist, avid technology enthusiast and a father. The aim of this blog is to serve as a journal for my ideas, experiments and projects as I pursue a career in data science.    
 
->***From my own experience, I've always learned things better and faster when I tried to teach it to someone.   
-So that in essence is the mission statement for this blog*** 
+I've not chosen these topics for any specific reason other than to learn something new and I am not sure of their scientific value but sharing with the hope that someone somewhere finds it useful. The topics won't be restricted to data science though, I intend to blog about anything technical that excites me in this journey.    
 
-Comments are most welcome. I always appreciate constructive feedback in any form or shape and take expert rebuttals on the chin.
+Comments are most welcome. Click [here](/stories/background.html) to learn more about my background.
 
-If you have the luxury of time click [here](/stories/background.html) to learn more about my background and hear why I chose Data Science. Otherwise, Happy reading!
-
-Cheers!  
+**Share More, Learn More!**  
 Shankar
 
 <a href="https://github.com/shankarmsy"> 

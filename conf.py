@@ -115,7 +115,7 @@ NAVIGATION_LINKS = {
         ('/stories/projects.html', 'Projects'), 
         ((("/stories/intro.html", "Goal of the Blog"), 
         # ("/stories/background.html", "My Background")), "About"),
-        ("/posts/why-data-scientist.html", "My Background")), "About"),
+        ("/posts/why-data-scientist.html", "Why Data Science")), "About"),
         # ("/rss.xml", "RSS feed"),
     ),
 }
