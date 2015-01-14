@@ -17,7 +17,7 @@ Below is a collection of all my Data Science related work. It includes mostly IP
 
 Feel free to use any of this for your own reference but expect more code than text!  
 
-###Projects
+###Real-world Data Science
 These are some of my attempts at creating (and solving) real-world scenarios for Data Science. I will publish the full source code and other artifacts here once the individual projects are complete.  
 
 **Predicting Restaurant Health Scores using Yelp User Reviews and SF Open Data**  
