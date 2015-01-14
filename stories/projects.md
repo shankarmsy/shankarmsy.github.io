@@ -17,14 +17,14 @@ Below is a collection of all my Data Science related work. It includes mostly IP
 
 Feel free to use any of this for your own reference but expect more code than text!  
 
-###Mini-projects
-These are some of my attempts at real-world scenarios for Data Science. I will publish the full source code and other artifacts here once the individual projects are complete.  
+###Real-world Data Science
+These are some of my attempts at creating (and solving) real-world scenarios for Data Science. I will publish the full source code and other artifacts here once the individual projects are complete.  
 
 **Predicting Restaurant Health Scores using Yelp User Reviews and SF Open Data**  
 City Health Inspectors provide a health score for each restaurant they visit. They also lodge their complaints if any and request the owners to correct the issues. Once the issues have been corrected, the restaurants are eligible to receive a score. Knowing the popularity of Yelp and being a Yelper myself, this project is basically an attempt to see if user reviews or Yelp restaurant details like the location, neighborhood, price etc. can give us an indication of the potential Health Score. Perhaps some users talked about how unclean a restaurant was or in some neighborhoods, things are always spic and span. 
 
-###Working Sessions
-These initially began as an attempt to learn individual algorithms but I quickly realized that I can get the best value only if I undertake the complete Data Science process to understand the true meaning of successful model development. Hence they all cover the full spectrum of the learning process beginning with Data procurement to Model Comparison and Visualization. I intend to host solutions in multiple toolsets here but I will start with scikit-learn (+ other python packages) and R.  
+###Mini-Projects
+I call these mini-projects since they are based on common scenarios/applications of Machine Learning. But they do cover the full spectrum of the learning process beginning with Data procurement to Model Comparison & Visualization and are based on real data sets (open data). I intend to host solutions in multiple toolsets here but I will start with scikit-learn (+ other python packages) and R.  
 
 [Facial Image Compression and Dimensionality Reduction using Principal Component Analysis (PCA)](/posts/pca-sklearn.html)  
 [Understanding k-Nearest Neighbours with the PIMA Indians Diabetes dataset (UCI)](/stories/knn-sklearn.html)  
