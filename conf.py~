@@ -119,7 +119,7 @@ NAVIGATION_LINKS = {
         # ("/rss.xml", "RSS feed"),
     ),
 }
-WRITE_TAG_CLOUD=False
+
 # NAVIGATION_LINKS = {
 #     DEFAULT_LANG: (
 #         ('/index.html', 'Home', 'icon-home'),
@@ -340,7 +340,7 @@ REDIRECTIONS = []
 # named `default` will be executed.  You canuse as many presets
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {
-                  "default":[     "cd ~/Documents/DataSci/myblog/",
+                  "default":[     "cd /media/shanks/Storage1/DataSci/myblog/",
                                   "git add . -A",
                                   "git commit -am 'Update'",
                                   "git push origin HEAD:source --force",

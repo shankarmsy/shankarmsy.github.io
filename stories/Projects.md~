@@ -30,7 +30,7 @@ I call these mini-projects since they are based on common scenarios/applications
 [Understanding k-Nearest Neighbours with the PIMA Indians Diabetes dataset (UCI)](/stories/knn-sklearn.html)  
 [Recognizing Hand Written Digits (UCI ML Repo) with Support Vector Machines (SVM)](/posts/svm-sklearn.html)  
 [Color Compression using the K-Means algorithm](/stories/clustering-sklearn.html)  
-[Predicting LendingClub interest rates with Linear Regression](/stories/linear-reg-sklearn.html)  
+[Predicting LendingClub interest rates with Linear Regression](/stories/llinear-reg-sklearn.html)  
 [Evaluating the Statlog (German Credit Data) Data Set with Random Forests](/stories/rf-sklearn.html)  
 [Caifornia house price predictions with Gradient Boosted Regression Trees  ](/stories/gbrt-sklearn.html)  
 
