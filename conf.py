@@ -342,7 +342,7 @@ REDIRECTIONS = []
 DEPLOY_COMMANDS = {
                   "default":[     "cd ~/Documents/DataSci/myblog/",
                                   "git add . -A",
-                                  "git commit -am 'Update'",
+                                  "git commit -am 'Updates'",
                                   "git push origin HEAD:source --force",
                                   "git stp output origin master"]
 
