@@ -5,6 +5,10 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://shankarmsy.github.io/categories/base-r-graphics.xml</loc>
+  <lastmod>2015-01-20</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://shankarmsy.github.io/categories/blending.xml</loc>
   <lastmod>2015-01-18</lastmod>
  </sitemap>
@@ -45,6 +49,10 @@
   <lastmod>2015-01-18</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://shankarmsy.github.io/categories/ggplot2.xml</loc>
+  <lastmod>2015-01-20</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://shankarmsy.github.io/categories/github.xml</loc>
   <lastmod>2015-01-18</lastmod>
  </sitemap>
@@ -74,7 +82,7 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/matplotlib.xml</loc>
-  <lastmod>2014-11-23</lastmod>
+  <lastmod>2015-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/nikola.xml</loc>
@@ -86,7 +94,7 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/pandas.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/pca.xml</loc>
@@ -94,11 +102,11 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/python.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/r.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/random-forests.xml</loc>
@@ -129,19 +137,23 @@
   <lastmod>2015-01-18</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://shankarmsy.github.io/categories/visualization.xml</loc>
+  <lastmod>2015-01-20</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://shankarmsy.github.io/galleries/Inserts/rss.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/galleries/rss.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/rss.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-20</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/sitemap.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-20</lastmod>
  </sitemap>
 </sitemapindex>
