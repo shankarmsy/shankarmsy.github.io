@@ -17,8 +17,8 @@ Below is a collection of all my Data Science related work. It includes mostly IP
 
 Feel free to use any of this for your own reference but expect more code than text!  
 
-###Real-world Data Science
-These are some of my attempts at creating (and solving) real-world scenarios for Data Science. I will publish the full source code and other artifacts here once the individual projects are complete.  
+###Rendezvous with the real-world
+These are some of my attempts at creating (and solving) real-world technical challenges, primarily focused on Data Science. I will publish the full source code and other artifacts here once the individual projects are complete.  
 
 **Predicting Restaurant Health Scores using Yelp User Reviews and SF Open Data**  
 City Health Inspectors provide a health score for each restaurant they visit. They also lodge their complaints if any and request the owners to correct the issues. Once the issues have been corrected, the restaurants are eligible to receive a score. Knowing the popularity of Yelp and being a Yelper myself, this project is basically an attempt to see if user reviews or Yelp restaurant details like the location, neighborhood, price etc. can give us an indication of the potential Health Score. Perhaps some users talked about how unclean a restaurant was or in some neighborhoods, things are always spic and span. 
@@ -52,10 +52,17 @@ In this session I work on the Titanic Survival prediction challenge. The solutio
 In this session I work on the Forest Cover Type prediction challenge. The solution is entirely in Python. I try to demonstrate the ensemble approach to machine learning with this competition (with reasonable success).
 
 ###Tool-focused sessions
-The focus here is to understand the concepts given the tool at hand. I've illustrated Data Munging with Pandas below. I intend to attempt and compare multiple tools, for instance I attempted Data Cleansing with R as part of the [Titanic Survival prediction](/posts/saving-titanic-r.html) project.  
+The focus here is to understand the concepts given the tool at hand. I intend to compare and contrast multiple tools for the same purpose.
 	
+**Pandas**
+
 - [Dive-in to Pandas (Basic)](/posts/dive-in-pandas.html)  
 - [Data Munging with Pandas (Advanced)](/posts/munging-pandas.html)    
+  
+  
+**Visualization Tools** - matplotlib, ggplot2, lattice etc.  
+
+- [matplotlib vs ggplot2 - Exploring Visualizations part I](/posts/exploringviz1.html)
 
 
 
