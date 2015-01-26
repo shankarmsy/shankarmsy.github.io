@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Shankar Muthuswamy"  # (translatable)
-BLOG_TITLE = "Shankar's Data Science Blog"  # (translatable)
+BLOG_TITLE = "Dreaming Data Science"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "https://shankarmsy.github.io/"
