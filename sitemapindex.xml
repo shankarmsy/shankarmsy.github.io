@@ -34,7 +34,7 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/dimensionality-reduction.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-26</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/ensemble.xml</loc>
@@ -58,7 +58,7 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/image-compression.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-26</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/ipython.xml</loc>
@@ -98,7 +98,7 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/pca.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-26</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/python.xml</loc>
@@ -114,7 +114,7 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/scikit-learn.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-26</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/supervised-learning.xml</loc>
@@ -134,7 +134,7 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/unsupervised-learning.xml</loc>
-  <lastmod>2015-01-18</lastmod>
+  <lastmod>2015-01-26</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/categories/visualization.xml</loc>
@@ -150,10 +150,10 @@
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/rss.xml</loc>
-  <lastmod>2015-01-20</lastmod>
+  <lastmod>2015-01-26</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://shankarmsy.github.io/sitemap.xml</loc>
-  <lastmod>2015-01-26</lastmod>
+  <lastmod>2015-01-29</lastmod>
  </sitemap>
 </sitemapindex>
