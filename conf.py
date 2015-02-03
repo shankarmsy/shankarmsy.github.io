@@ -112,7 +112,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
         ("/categories/index.html", "Tags"),
-        ('/stories/projects.html', 'Projects'),
+        # ('/stories/projects.html', 'Projects'),
         ((("/stories/intro.html", "Goal of the Blog"),
         # ("/stories/background.html", "My Background")), "About"),
         ("/posts/why-data-scientist.html", "Why Data Science")), "About"),
