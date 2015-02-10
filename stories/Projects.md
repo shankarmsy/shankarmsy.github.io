@@ -62,7 +62,8 @@ The focus here is to understand the concepts given the tool at hand. I intend to
   
 **Visualization Tools** - matplotlib, ggplot2, lattice etc.  
 
-- [Exploratory Visualizations part-I - matplotlib vs base R](/posts/exploringviz1.html)
+- [Exploratory Visualizations part-1 - matplotlib vs base R](/posts/exploringviz1.html)
+- [Exploratory Visualizations part-2 - decoding ggplot2](/posts/exploringviz2.html)
 
 
 
