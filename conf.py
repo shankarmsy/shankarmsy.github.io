@@ -18,6 +18,7 @@ import time
 # Data about this site
 BLOG_AUTHOR = "Shankar Muthuswamy"  # (translatable)
 BLOG_TITLE = "It's all in the data"  # (translatable)
+#BLOG_TITLE = '''<div><font size="4"> <p style="position: relative; left: 50px; top: 5px; z-index: 2000; color: white;""> Shankar Muthuswamy </p> </font></div>'''
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "https://shankarmsy.github.io/"
@@ -737,7 +738,8 @@ SEARCH_FORM = """<a href="https://github.com/shankarmsy"   style = "position:rel
 <img title="LinkedIn" alt="LinkedIn" src="/assets/linkedin.png" width="28" height="28" />
 </a>
 <a href="/rss.xml" style = "position:relative; left:270px; top: 10px">
-<img title="RSS" alt="RSS" src="/assets/rss.png" width="28" height="28" /> </a>
+<img title="RSS" alt="RSS" src="/assets/rss.png" width="28" height="28" /> 
+</a>
 """
 # <!-- Custom search with Google-->
 # <form id="search" action="//www.google.com/search" method="get" class="navbar-form pull-left">
