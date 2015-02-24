@@ -64,6 +64,7 @@ The focus here is to understand the concepts given the tool at hand. I intend to
 
 - [Exploratory Visualizations part-1 - matplotlib vs base R](/posts/exploringviz1.html)
 - [Exploratory Visualizations part-2 - decoding ggplot2](/posts/exploringviz2.html)
+- [Exploratory Visualizations part-3 - Styling matplotlib](/posts/exploringviz3.html)
 
 
 

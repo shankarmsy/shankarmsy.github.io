@@ -6,11 +6,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://shankarmsy.github.io/2014/index.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
+ </url>
+ <url>
+  <loc>https://shankarmsy.github.io/2015/index.html</loc>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/archive.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/assets/Flat-Social-Media-Icons/Startup Design Framework/index.html</loc>
@@ -66,23 +70,31 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/base-r-graphics.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/blending.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/blogging.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
+ </url>
+ <url>
+  <loc>https://shankarmsy.github.io/categories/brewer2mpl.html</loc>
+  <lastmod>2015-02-24</lastmod>
+ </url>
+ <url>
+  <loc>https://shankarmsy.github.io/categories/colorbrewer.html</loc>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/conditional-trees.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/data-munging.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/data-science.html</loc>
@@ -90,59 +102,59 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/digit-recognition.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/dimensionality-reduction.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/ensemble.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/exploratory.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/extra-trees.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/fundamentals.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/ggplot2.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/github.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/image-compression.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/index.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/ipython.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/kaggle.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/linear-regression.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/logistic-regression.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/machine-learning.html</loc>
@@ -150,55 +162,63 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/matplotlib.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/nikola.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/octopress.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/pandas.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/pca.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/python.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/r.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/random-forests.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/scikit-learn.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
+ </url>
+ <url>
+  <loc>https://shankarmsy.github.io/categories/seaborn.html</loc>
+  <lastmod>2015-02-24</lastmod>
+ </url>
+ <url>
+  <loc>https://shankarmsy.github.io/categories/style.html</loc>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/supervised-learning.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/svm.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/titanic.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/tutorial.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/unsupervised-learning.html</loc>
@@ -206,7 +226,7 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/categories/visualization.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/galleries/Inserts/index.html</loc>
@@ -218,15 +238,15 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/index-1.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/index-2.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/index.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/intro.html</loc>
@@ -254,7 +274,11 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/posts/exploringviz2.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
+ </url>
+ <url>
+  <loc>https://shankarmsy.github.io/posts/exploringviz3.html</loc>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/posts/forest-cover-types.html</loc>
@@ -314,7 +338,7 @@
  </url>
  <url>
   <loc>https://shankarmsy.github.io/stories/projects.html</loc>
-  <lastmod>2015-02-10</lastmod>
+  <lastmod>2015-02-24</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/stories/rf-sklearn.html</loc>
