@@ -8,11 +8,9 @@
 .. type: text
 -->
 
-Thanks for visiting. I am **Shankar Muthuswamy**, an aspiring Data Scientist, avid technology enthusiast and a father. The aim of this blog is to serve as a journal for my ideas, experiments and projects as I pursue a career in data science.    
+Thanks for visiting. I am **Shankar Muthuswamy**, an analytics professional and avid data science enthusiast. I am also a huge fan of open source and tech. The aim of this blog is simply to serve as a journal for my ideas, experiments and projects as I continue to explore new things technically, with the hope that someone somewhere finds it useful.  
 
-I've not chosen these topics for any specific reason other than to learn something new and I am not sure of their scientific value but sharing with the hope that someone somewhere finds it useful. The topics won't be restricted to data science though, I intend to blog about anything technical that excites me in this journey.    
-
-Comments are most welcome. 
+Happy Reading!
 
 **Share More, Learn More!**  
 Shankar
