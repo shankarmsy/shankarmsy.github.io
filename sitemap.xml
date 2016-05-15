@@ -265,6 +265,14 @@
   <lastmod>2015-02-03</lastmod>
  </url>
  <url>
+  <loc>https://shankarmsy.github.io/knn-sklearn.html</loc>
+  <lastmod>2016-05-15</lastmod>
+ </url>
+ <url>
+  <loc>https://shankarmsy.github.io/linear-reg-sklearn.html</loc>
+  <lastmod>2016-05-15</lastmod>
+ </url>
+ <url>
   <loc>https://shankarmsy.github.io/listings/index.html</loc>
   <lastmod>2016-05-15</lastmod>
  </url>
@@ -319,6 +327,10 @@
  <url>
   <loc>https://shankarmsy.github.io/projects.html</loc>
   <lastmod>2015-02-24</lastmod>
+ </url>
+ <url>
+  <loc>https://shankarmsy.github.io/rf-sklearn.html</loc>
+  <lastmod>2016-05-15</lastmod>
  </url>
  <url>
   <loc>https://shankarmsy.github.io/stories/background.html</loc>
